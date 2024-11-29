@@ -56,7 +56,7 @@ public class Arreglos {
 
 
         //Introducir valores dinámicamente a un arreglo
-        System.out.println("%n%nIntroducir valores a un arreglo: ");
+        System.out.println("\n\nIntroducir valores a un arreglo: ");
 
         //Declarar arreglo
         System.out.println("Proporciona el largo del arreglo: ");
