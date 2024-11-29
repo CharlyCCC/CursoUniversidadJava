@@ -6,6 +6,7 @@ import java.util.Objects;
 public class Listas {
     public static void main(String[] args) {
         List<String> miLista = new ArrayList<>();
+        //Agregar elementos a la lista
         miLista.add("Lunes");
         miLista.add("Martes");
         miLista.add("Miercoles");
@@ -26,12 +27,21 @@ public class Listas {
         } );
  */
 
+        //Función lambda del ciclo forEach anterior simplificado (ya no se imprime "Elemento: ")
         miLista.forEach(System.out::println);
-        System.out.println("");
+
+        System.out.println(" ");
+
+
+
+        //Otro método para generar una lista por el método "Arrays.asList"
         List<String> nombres = Arrays.asList("Pedro","Ivonne","Nohemi");
+        System.out.println("\nLista de Nombres: ");
         nombres.forEach(System.out::println);
 
         System.out.println("");
+
+
         //Remover elemento
         miLista.remove("Domingo");
         miLista.forEach(System.out::println);

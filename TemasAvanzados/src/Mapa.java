@@ -3,10 +3,11 @@ import java.util.Map;
 
 public class Mapa {
     public static void main(String[] args) {
+        //El método no almacena un orden concreto de los elementos del Mapa
         Map<String, String> persona = new HashMap<>();
         persona.put("nombre", "Diego");
         persona.put("apellido", "Flores");
-        persona.put("edad", "31");
+        persona.put("edad", "31"); //No admite valores duplicados
 
         System.out.println("Valores del mapa/diccionario: ");
         persona.entrySet().forEach(System.out::println);
